@@ -1,0 +1,32 @@
+.course-table {
+    padding: 20px;
+  
+    h2 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 15px;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+  
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+  
+      th {
+        background-color: #f4f4f4;
+        font-weight: 600;
+      }
+  
+      @media (max-width: 768px) {
+        th, td {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+  
